@@ -20,7 +20,7 @@ public class LoginServlet extends javax.servlet.http.HttpServlet {
             request.getSession().setAttribute("name", name);
             response.sendRedirect(request.getContextPath()+"/GroupServlet");
         } else {
-            request.setAttribute("errorMessage", "Invalid Login and password!!");
+            request.setAttribute("errorMessage", "Invalid login or password!");
             request.getRequestDispatcher("/WEB-INF/views/login.jsp")
                     .forward(request, response);
         }

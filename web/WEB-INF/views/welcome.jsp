@@ -32,8 +32,8 @@
 <nav role="navigation" class="navbar navbar-default">
     <div class="">
         <img src =
-                     "https://www.kv.by/sites/default/files/user7743/logo_iba_group.jpg" width="50"
-             height="50">
+                     "https://upload.wikimedia.org/wikipedia/commons/f/fa/Logo_IBA_Group.jpg" width="200"
+             height="100">
     </div>
     <div class="navbar-collapse">
         <ul class="nav navbar-nav">
@@ -74,10 +74,10 @@
 </div>
 <footer class="footer">
     <div class="container">
-        <p>2019 Все права защищены</p>
+        <p>© 2020 Alexander Grigorjev. All rights reserved.</p>
     </div>
 </footer>
-<script src="webjars/jquery/3.3.1/jquery.min.js"></script>
-<script src="webjars/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="webjars/jquery/3.4.1/jquery.min.js"></script>
+<script src="webjars/bootstrap/4.4.1-1/js/bootstrap.min.js"></script>
 </body>
 </html>

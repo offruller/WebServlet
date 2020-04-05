@@ -6,9 +6,9 @@ import java.util.List;
 public class ListService {
     private static List<Person> groupList = new ArrayList();
     static {
-        groupList.add(new Person("Anna","+375291234567", "anna.1.18@gmail.com"));
-        groupList.add(new Person("Ivan","+375331114534", "ivan.1.18@gmail.com"));
-        groupList.add(new Person("Nikolai","+3752998734534","nik.1.18@gmail.com"));
+        groupList.add(new Person("Alexander","+375293229928", "asgrigorjev@tut.by"));
+        groupList.add(new Person("Zoya","+375333749491", "zoya_ventimiglia@gmail.com"));
+        groupList.add(new Person("Marina","+375296875385","marina.shulyak@mail.ru"));
     }
     static public List<Person> retrieveList() {
         return groupList;
